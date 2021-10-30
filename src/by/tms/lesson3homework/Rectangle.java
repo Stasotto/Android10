@@ -1,18 +1,18 @@
 package by.tms.lesson3homework;
 
-public class Ractangle {
-    Point leftAngle;
-    Point rightAngle;
+public class Rectangle {
+    private Point leftAngle;
+    private Point rightAngle;
     private double sizeA;
     private double sizeB;
 
 
-    public Ractangle(Point l, Point r) {
+    public Rectangle(Point l, Point r) {
         leftAngle = l;
         rightAngle = r;
     }
 
-    public Ractangle() {
+    public Rectangle() {
 
     }
 
